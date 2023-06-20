@@ -1,0 +1,16 @@
+export const LOGIN_START = "LOGIN_START";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+
+export const MOVIE_FETCHING = "MOVIE_FETCHING";
+export const MOVIE_SUCCESS = "MOVIE_SUCCESS";
+export const MOVIE_FAILURE = "MOVIE_FAILURE";
+export const MOVIE_DELETE = "MOVIE_DELETE";
+
+export const MOVIE_CREATE = "MOVIE_CREATE";
+export const MOVIE_CREATE_Uploading = "MOVIE_CREATE_Uploading";
+
+export const GET_MOBVIE_BY_ID_LOADING = "GET_MOBVIE_BY_ID_LOADING";
+export const GET_MOBVIE_BY_ID_LOADING_SUC = "GET_MOBVIE_BY_ID_LOADING_SUC";
+export const GET_MOBVIE_BY_ID_LOADING_ER = "GET_MOBVIE_BY_ID_LOADING_ER";
+export const LOG_OUT = "LOG_OUT";

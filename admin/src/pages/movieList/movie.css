@@ -1,0 +1,42 @@
+.userlist {
+  flex: 4;
+}
+
+.userlistUser {
+  display: flex;
+  align-items: center;
+}
+
+.userlistImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userlistEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.userlistDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.movieCreate {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+}
+.link {
+  text-decoration: none;
+}
